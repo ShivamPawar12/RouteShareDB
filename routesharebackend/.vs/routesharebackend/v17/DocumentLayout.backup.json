@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\controllers\\offerpoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\controllers\\offerpoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\models\\offerpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\models\\offerpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260726075546_updateofferpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260726075546_updateofferpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260726064513_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260726064513_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260729092729_updatebookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260729092729_updatebookingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.AuthSessions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260729073211_addbookingrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260729073211_addbookingrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260729073211_addbookingrelation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260729073211_addbookingrelation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\routesharebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\routesharebackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.OfferPool.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\migrations\\20260730092718_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\migrations\\20260730092718_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "routesharebackend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:30:23.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfferPool.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\OfferPool.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Models\\OfferPool.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\OfferPool.cs",
+              "RelativeToolTip": "routesharebackend\\Models\\OfferPool.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:29:33.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Models\\User.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\User.cs",
+              "RelativeToolTip": "routesharebackend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T09:22:40.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\appsettings.json",
+              "RelativeDocumentMoniker": "routesharebackend\\appsettings.json",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\appsettings.json",
+              "RelativeToolTip": "routesharebackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T15:38:41.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Program.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Program.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Program.cs",
+              "RelativeToolTip": "routesharebackend\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:39:59.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OfferPoolController.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\OfferPoolController.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Controllers\\OfferPoolController.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\OfferPoolController.cs",
+              "RelativeToolTip": "routesharebackend\\Controllers\\OfferPoolController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:49:37.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Models\\Booking.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\Booking.cs",
+              "RelativeToolTip": "routesharebackend\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T07:27:01.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "routesharebackend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:42:46.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "routesharebackend\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:52:31.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "routesharebackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T09:23:34.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260726075546_UpdateOfferPool.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260726075546_UpdateOfferPool.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260726075546_UpdateOfferPool.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260726075546_UpdateOfferPool.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260726075546_UpdateOfferPool.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:52:40.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:52:45.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260726064513_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260726064513_InitialCreate.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260726064513_InitialCreate.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260726064513_InitialCreate.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260726064513_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T06:45:13.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260729092729_UpdateBookingTable.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729092729_UpdateBookingTable.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260729092729_UpdateBookingTable.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729092729_UpdateBookingTable.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260729092729_UpdateBookingTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T09:27:29.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-30T09:31:25.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260730092718_AddUsers.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260730092718_AddUsers.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260730092718_AddUsers.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260730092718_AddUsers.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260730092718_AddUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T09:27:18.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.AuthSessions.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.AuthSessions.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.AuthSessions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-30T09:14:27.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\WeatherForecast.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\WeatherForecast.cs",
+              "RelativeToolTip": "routesharebackend\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:39:53.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "routesharebackend\\Properties\\serviceDependencies.json",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "routesharebackend\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-30T08:13:29.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "routesharebackend\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "routesharebackend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-29T14:03:07.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260729073211_AddBookingRelation.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729073211_AddBookingRelation.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260729073211_AddBookingRelation.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729073211_AddBookingRelation.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260729073211_AddBookingRelation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T07:32:12.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260729073211_AddBookingRelation.Designer.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729073211_AddBookingRelation.Designer.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260729073211_AddBookingRelation.Designer.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260729073211_AddBookingRelation.Designer.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260729073211_AddBookingRelation.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:16:49.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "routesharebackend.csproj",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.csproj",
+              "RelativeDocumentMoniker": "routesharebackend\\routesharebackend.csproj",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.csproj",
+              "RelativeToolTip": "routesharebackend\\routesharebackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-26T06:29:57.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "routesharebackend.http",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.http",
+              "RelativeDocumentMoniker": "routesharebackend\\routesharebackend.http",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\routesharebackend.http",
+              "RelativeToolTip": "routesharebackend\\routesharebackend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-07-23T15:39:46.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "routesharebackend\\appsettings.Development.json",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\appsettings.Development.json",
+              "RelativeToolTip": "routesharebackend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-23T15:40:04.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.OfferPool.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.OfferPool.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.OfferPool.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-29T09:33:44.404Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
