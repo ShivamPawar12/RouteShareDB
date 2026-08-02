@@ -12,8 +12,8 @@ using routesharebackend.Data;
 namespace routesharebackend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260802152807_InitialPostgres")]
-    partial class InitialPostgres
+    [Migration("20260802172915_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
