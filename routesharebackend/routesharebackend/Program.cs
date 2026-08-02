@@ -3,6 +3,9 @@ using routesharebackend.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Console.WriteLine("Connection String:");
+Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -13,7 +16,8 @@ builder.Services.AddHttpClient();
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReact",

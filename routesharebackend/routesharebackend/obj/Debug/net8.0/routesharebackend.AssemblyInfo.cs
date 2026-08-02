@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("routesharebackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67c47e6383c6534ecee50310ec15ea7e45a02514")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47a5a3a235ef88ea4a0607df202e99a3a7e2afc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("routesharebackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("routesharebackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
