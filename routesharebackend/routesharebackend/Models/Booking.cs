@@ -16,8 +16,10 @@
 
         public string Destination { get; set; } = "";
 
+        public DateTime BookedAt { get; set; } = DateTime.UtcNow;
+
         public string Status { get; set; } = "Confirmed";
 
-        public DateTime BookedAt { get; set; } = DateTime.Now;
+        public DateTime? CancelledAt { get; set; }
     }
 }

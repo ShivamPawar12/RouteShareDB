@@ -51,6 +51,8 @@ D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\MimeKit.dll
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Npgsql.dll
+D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -143,6 +145,7 @@ D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\routesharebackend.csproj.CoreCompileInputs.cache
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\routesharebackend.MvcApplicationPartsAssemblyInfo.cs
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\routesharebackend.MvcApplicationPartsAssemblyInfo.cache
+D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\routesharebackend.sourcelink.json
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Ride_Sharing_Project_cdac\routesharebackend\routesharebackend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

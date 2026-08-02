@@ -365,13 +365,18 @@
             "type": "string",
             "nullable": true
           },
+          "bookedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
           "status": {
             "type": "string",
             "nullable": true
           },
-          "bookedAt": {
+          "cancelledAt": {
             "type": "string",
-            "format": "date-time"
+            "format": "date-time",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -456,6 +461,10 @@
             "format": "int32"
           },
           "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contact": {
             "type": "string",
             "nullable": true
           },

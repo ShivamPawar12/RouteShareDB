@@ -20,23 +20,19 @@ namespace routesharebackend.Controllers
         [HttpPost("signup")]
         public IActionResult Signup(User user)
         {
+            Console.WriteLine("Name: " + user.Name);
+            Console.WriteLine("Email: " + user.Email);
+            Console.WriteLine("Contact: " + user.Contact);
+
             if (_context.Users.Any(x => x.Email == user.Email))
             {
                 return BadRequest("Email already exists");
             }
 
-            try
-            {
-                _context.Users.Add(user);
-                _context.SaveChanges();
+            _context.Users.Add(user);
+            _context.SaveChanges();
 
-                return Ok(user);
-            }
-            catch (Exception ex)
-            {
-                var msg = ex.InnerException?.Message ?? ex.Message;
-                return BadRequest(msg);
-            }
+            return Ok(user);
         }
 
         // Login

@@ -8,6 +8,8 @@ namespace routesharebackend.Models
 
         public string Name { get; set; }
 
+        public string? Contact { get; set; }
+
         public string Email { get; set; }
 
         public string Password { get; set; }
@@ -16,7 +18,7 @@ namespace routesharebackend.Models
 
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        public string Extension { get; set; }
+        public string? Extension { get; set; }
 
         public string DefaultStartPoint { get; set; }
     }

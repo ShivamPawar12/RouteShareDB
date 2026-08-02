@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using routesharebackend.Data;
 using routesharebackend.Models;
 
@@ -33,6 +34,9 @@ namespace routesharebackend.Controllers
 
                 offer.AvailableSeats--;
 
+                booking.BookedAt = DateTime.Now;
+                booking.Status = "Confirmed";
+
                 _context.Bookings.Add(booking);
 
                 _context.SaveChanges();
@@ -47,6 +51,8 @@ namespace routesharebackend.Controllers
         [HttpGet("user/{userId}")]
         public IActionResult GetMyBookings(int userId)
         {
+            var now = DateTime.UtcNow;
+
             var bookings = (from b in _context.Bookings
                             join o in _context.OfferPool
                             on b.OfferId equals o.Id
@@ -59,8 +65,13 @@ namespace routesharebackend.Controllers
                                 StartPoint = o.StartPoint,
                                 Destination = b.Destination,
                                 DepartureTime = o.DepartureTime,
+                                RideDate = o.FromDate,
                                 Status = b.Status,
-                                BookedAt = b.BookedAt
+                                BookedAt = b.BookedAt,
+
+                                CanCancel =
+                                    b.Status == "Confirmed" &&
+                                    now <= b.BookedAt.AddMinutes(10)
                             }).ToList();
 
             return Ok(bookings);
@@ -82,7 +93,16 @@ namespace routesharebackend.Controllers
             var booking = _context.Bookings.FirstOrDefault(x => x.Id == id);
 
             if (booking == null)
-                return NotFound("Booking not found");
+                return NotFound("Booking not found.");
+
+            if (booking.Status == "Cancelled")
+                return BadRequest("Booking is already cancelled.");
+
+            // Allow cancellation only within 10 minutes
+            if (DateTime.Now > booking.BookedAt.AddMinutes(10))
+            {
+                return BadRequest("Cancellation is allowed only within 10 minutes of booking.");
+            }
 
             var offer = _context.OfferPool.FirstOrDefault(x => x.Id == booking.OfferId);
 
@@ -91,12 +111,15 @@ namespace routesharebackend.Controllers
                 offer.AvailableSeats++;
             }
 
-            _context.Bookings.Remove(booking);
+            booking.Status = "Cancelled";
+            booking.CancelledAt = DateTime.Now;
+
             _context.SaveChanges();
 
-            return Ok(new { message = "Booking cancelled successfully" });
+            return Ok(new
+            {
+                message = "Booking cancelled successfully."
+            });
         }
-
-
-    }
+    } 
 }

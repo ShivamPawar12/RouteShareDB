@@ -15,11 +15,47 @@ namespace routesharebackend.Controllers
         }
 
         // GET : api/OfferPool
+        //[HttpGet]
+        //public IActionResult GetOffers()
+        //{
+        //    return Ok(_context.OfferPool.ToList());
+        //}
+
+
+        // GET : api/OfferPool
         [HttpGet]
         public IActionResult GetOffers()
         {
-            return Ok(_context.OfferPool.ToList());
+            var today = DateTime.Today;
+
+            var offers = _context.OfferPool
+                .Where(o => o.FromDate.Date >= today)
+                .ToList();
+
+            return Ok(offers);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // GET : api/OfferPool/5
         [HttpGet("{id}")]
@@ -41,6 +77,10 @@ namespace routesharebackend.Controllers
             {
                 return BadRequest(ModelState);
             }
+
+            offer.DepartureTime = DateTime
+    .Parse(offer.DepartureTime)
+    .ToString("hh:mm tt");
 
             _context.OfferPool.Add(offer);
             await _context.SaveChangesAsync();
@@ -65,7 +105,11 @@ namespace routesharebackend.Controllers
             offer.Route = updatedOffer.Route;
             offer.FromDate = updatedOffer.FromDate;
             offer.TillDate = updatedOffer.TillDate;
-            offer.DepartureTime = updatedOffer.DepartureTime;
+
+            offer.DepartureTime = DateTime
+    .Parse(updatedOffer.DepartureTime)
+    .ToString("hh:mm tt");
+
             offer.AvailableSeats = updatedOffer.AvailableSeats;
             offer.OwnerId = updatedOffer.OwnerId;
 
