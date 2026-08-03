@@ -15,11 +15,11 @@ namespace routesharebackend.Controllers
         }
 
         // GET : api/OfferPool
-        //[HttpGet]
-        //public IActionResult GetOffers()
-        //{
-        //    return Ok(_context.OfferPool.ToList());
-        //}
+       [HttpGet]
+        public IActionResult GetOffers()
+        {
+            return Ok(_context.OfferPool.ToList());
+        }
 
 
         //// GET : api/OfferPool
