@@ -35,7 +35,7 @@ namespace routesharebackend.Controllers
                 offer.AvailableSeats--;
 
                 booking.BookedAt = DateTime.UtcNow;
-                booking.CancelledAt = DateTime.Now;
+                booking.CancelledAt = DateTime.UtcNow;
 
                 _context.Bookings.Add(booking);
 
@@ -112,7 +112,7 @@ namespace routesharebackend.Controllers
             }
 
             booking.Status = "Cancelled";
-            booking.CancelledAt = DateTime.Now;
+            booking.CancelledAt = DateTime.UtcNow;
 
             _context.SaveChanges();
 

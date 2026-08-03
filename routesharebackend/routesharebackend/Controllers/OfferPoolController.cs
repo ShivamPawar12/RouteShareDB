@@ -89,8 +89,12 @@ namespace routesharebackend.Controllers
             offer.StartPoint = updatedOffer.StartPoint;
             offer.Destination = updatedOffer.Destination;
             offer.Route = updatedOffer.Route;
-            offer.FromDate = DateTime.SpecifyKind(updatedOffer.FromDate, DateTimeKind.Utc); 
-            offer.TillDate = DateTime.SpecifyKind(updatedOffer.TillDate,DateTimeKind.Utc);
+            offer.FromDate =
+    DateTime.SpecifyKind(updatedOffer.FromDate, DateTimeKind.Utc);
+
+            offer.TillDate =
+                DateTime.SpecifyKind(updatedOffer.TillDate, DateTimeKind.Utc); 
+            
             offer.DepartureTime = DateTime
     .Parse(updatedOffer.DepartureTime)
     .ToString("hh:mm tt");
