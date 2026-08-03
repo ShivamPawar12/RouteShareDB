@@ -22,32 +22,32 @@ namespace routesharebackend.Controllers
         //}
 
 
-        //// GET : api/OfferPool
-        //[HttpGet]
-        //public IActionResult GetOffers()
-        //{
-        //    var today = DateTime.Today;
+        // GET : api/OfferPool
+        [HttpGet]
+        public IActionResult GetOffers()
+        {
+            var today = DateTime.Today;
 
-        //    var offers = _context.OfferPool
-        //        .Where(o => o.FromDate.Date >= today)
-        //        .ToList();
+            var offers = _context.OfferPool
+                .Where(o => o.FromDate.Date >= today)
+                .ToList();
 
-        //    return Ok(offers);
-        //}
+            return Ok(offers);
+        }
 
         // GET : api/OfferPool/
-        [HttpGet("{id}")]
-        public IActionResult GetOfferById(int id)
-        {
-            var offer = _context.OfferPool.Find(id);
+        //[HttpGet("{id}")]
+        //public IActionResult GetOfferById(int id)
+        //{
+        //    var offer = _context.OfferPool.Find(id);
 
-            if (offer == null)
-            {
-                return NotFound();
-            }
+        //    if (offer == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return Ok(offer);
-        }
+        //    return Ok(offer);
+        //}
 
         // POST : api/OfferPool
         [HttpPost]
