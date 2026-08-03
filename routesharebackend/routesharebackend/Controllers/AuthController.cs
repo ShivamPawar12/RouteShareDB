@@ -31,6 +31,12 @@ namespace routesharebackend.Controllers
                     return BadRequest("Email already exists");
                 }
 
+                user.CreatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
+                user.UpdatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
+
+                Console.WriteLine("CreatedAt Kind: " + user.CreatedAt.Kind);
+                Console.WriteLine("UpdatedAt Kind: " + user.UpdatedAt.Kind);
+
                 _context.Users.Add(user);
                 _context.SaveChanges();
 

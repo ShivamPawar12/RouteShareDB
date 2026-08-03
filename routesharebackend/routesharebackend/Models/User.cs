@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace routesharebackend.Models
 {
@@ -14,10 +15,10 @@ namespace routesharebackend.Models
 
         public string Password { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
-
-        public DateTime UpdatedAt { get; set; } = DateTime.Now;
-
+        [Column(TypeName = "timestamp with time zone")]
+        public DateTime CreatedAt { get; set; }
+        [Column(TypeName = "timestamp with time zone")]
+        public DateTime UpdatedAt { get; set; }
         public string? Extension { get; set; }
 
         public string DefaultStartPoint { get; set; }
