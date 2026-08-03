@@ -36,10 +36,17 @@ namespace routesharebackend.Controllers
         //}
 
         // GET : api/OfferPool/
-        [HttpGet]
-        public IActionResult GetOffers()
+        [HttpGet("{id}")]
+        public IActionResult GetOfferById(int id)
         {
-            return Ok(_context.OfferPool.ToList());
+            var offer = _context.OfferPool.Find(id);
+
+            if (offer == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(offer);
         }
 
         // POST : api/OfferPool
@@ -107,7 +114,7 @@ namespace routesharebackend.Controllers
             return Ok(offer);
         }
 
-        // DELETE : api/OfferPool/5
+        // DELETE : api/OfferPool/
         [HttpDelete("{id}")]
         public IActionResult DeleteOffer(int id)
         {

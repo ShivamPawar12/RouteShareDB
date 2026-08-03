@@ -71,7 +71,7 @@ namespace routesharebackend.Controllers
 
                                 CanCancel =
                                     b.Status == "Confirmed" &&
-                                    now <= b.BookedAt.AddMinutes(1)
+                                    now <= b.BookedAt.AddMinutes(10)
                             }).ToList();
 
             return Ok(bookings);

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|d:\\ride_sharing_project_cdac\\routesharebackend\\routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7676B290-5193-482B-92E2-066EB891E424}|routesharebackend\\routesharebackend.csproj|solutionrelative:routesharebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802171808_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routesharebackend\\Migrations\\20260802171808_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -51,55 +55,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260802152807_InitialPostgres.cs",
-              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs",
-              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs",
-              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs",
-              "RelativeToolTip": "routesharebackend\\Migrations\\20260802152807_InitialPostgres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:28:07.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20260802152145_InitialPostgres.cs",
-              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
-              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
-              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
-              "RelativeToolTip": "routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "routesharebackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA2wDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:21:45.324Z",
+              "WhenOpened": "2026-08-02T18:15:22.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "20260802171808_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802171808_InitialCreate.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260802171808_InitialCreate.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802171808_InitialCreate.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260802171808_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T17:18:09.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Program.cs",
               "RelativeDocumentMoniker": "routesharebackend\\Program.cs",
               "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Program.cs",
               "RelativeToolTip": "routesharebackend\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-02T14:56:58.368Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-08-02T13:27:07.007Z"
             },
             {
               "$type": "Document",
@@ -116,7 +111,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "20260802152145_InitialPostgres.cs",
+              "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
+              "RelativeDocumentMoniker": "routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
+              "ToolTip": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
+              "RelativeToolTip": "routesharebackend\\Migrations\\20260802152145_InitialPostgres.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T15:21:45.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-08-02T13:27:07.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BookingController.cs",
               "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "routesharebackend\\Controllers\\BookingController.cs",
@@ -124,11 +139,12 @@
               "RelativeToolTip": "routesharebackend\\Controllers\\BookingController.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAkwGEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T10:36:24.027Z"
+              "WhenOpened": "2026-08-01T10:36:24.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "dbo.Bookings.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Bookings.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/RouteShareDB/True/SqlTable/dbo.Bookings.sql",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OfferPool.cs",
               "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\OfferPool.cs",
               "RelativeDocumentMoniker": "routesharebackend\\Models\\OfferPool.cs",
@@ -145,11 +161,12 @@
               "RelativeToolTip": "routesharebackend\\Models\\OfferPool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T11:07:29.128Z"
+              "WhenOpened": "2026-08-01T11:07:29.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Booking.cs",
               "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "routesharebackend\\Models\\Booking.cs",
@@ -157,11 +174,12 @@
               "RelativeToolTip": "routesharebackend\\Models\\Booking.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwBIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T12:11:09.275Z"
+              "WhenOpened": "2026-08-01T12:11:09.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "kggr32zx..sql",
               "DocumentMoniker": "C:\\Users\\shiva\\AppData\\Local\\Temp\\kggr32zx..sql",
               "ToolTip": "C:\\Users\\shiva\\AppData\\Local\\Temp\\kggr32zx..sql",
@@ -170,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OfferPoolController.cs",
               "DocumentMoniker": "D:\\Ride_Sharing_Project_cdac\\routesharebackend\\routesharebackend\\Controllers\\OfferPoolController.cs",
               "RelativeDocumentMoniker": "routesharebackend\\Controllers\\OfferPoolController.cs",
@@ -178,7 +196,8 @@
               "RelativeToolTip": "routesharebackend\\Controllers\\OfferPoolController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T06:11:07.055Z"
+              "WhenOpened": "2026-08-01T06:11:07.055Z",
+              "EditorCaption": ""
             }
           ]
         }
