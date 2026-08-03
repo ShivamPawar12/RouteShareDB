@@ -34,8 +34,8 @@ namespace routesharebackend.Controllers
 
                 offer.AvailableSeats--;
 
-                booking.BookedAt = DateTime.Now;
-                booking.Status = "Confirmed";
+                booking.BookedAt = DateTime.UtcNow;
+                booking.CancelledAt = DateTime.Now;
 
                 _context.Bookings.Add(booking);
 
@@ -99,7 +99,7 @@ namespace routesharebackend.Controllers
                 return BadRequest("Booking is already cancelled.");
 
             // Allow cancellation only within 10 minutes
-            if (DateTime.Now > booking.BookedAt.AddMinutes(10))
+            if (DateTime.UtcNow > booking.BookedAt.AddMinutes(10))
             {
                 return BadRequest("Cancellation is allowed only within 10 minutes of booking.");
             }

@@ -21,6 +21,6 @@ namespace routesharebackend.Models
         public DateTime UpdatedAt { get; set; }
         public string? Extension { get; set; }
 
-        public string DefaultStartPoint { get; set; }
+        public string? DefaultStartPoint { get; set; }
     }
 }
