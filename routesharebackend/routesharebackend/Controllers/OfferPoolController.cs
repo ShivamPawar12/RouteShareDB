@@ -73,19 +73,32 @@ namespace routesharebackend.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateOffer([FromBody] OfferPool offer)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                offer.FromDate = DateTime.SpecifyKind(offer.FromDate, DateTimeKind.Utc);
+                offer.TillDate = DateTime.SpecifyKind(offer.TillDate, DateTimeKind.Utc);
+
+                Console.WriteLine("FromDate: " + offer.FromDate);
+                Console.WriteLine("FromDate Kind: " + offer.FromDate.Kind);
+
+                Console.WriteLine("TillDate: " + offer.TillDate);
+                Console.WriteLine("TillDate Kind: " + offer.TillDate.Kind);
+
+                _context.OfferPool.Add(offer);
+                await _context.SaveChangesAsync();
+
+                return Ok(offer);
             }
-
-            offer.DepartureTime = DateTime
-    .Parse(offer.DepartureTime)
-    .ToString("hh:mm tt");
-
-            _context.OfferPool.Add(offer);
-            await _context.SaveChangesAsync();
-
-            return Ok(offer);
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return StatusCode(500, ex.ToString());
+            }
         }
 
         // PUT : api/OfferPool/5
