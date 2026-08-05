@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using routesharebackend.Data;
+using routesharebackend.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient();
+
+builder.Services.AddSignalR();
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -42,5 +45,7 @@ app.UseCors("AllowReact");
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<RideHub>("/rideHub");
 
 app.Run();

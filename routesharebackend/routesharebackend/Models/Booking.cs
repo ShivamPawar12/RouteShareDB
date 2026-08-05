@@ -21,5 +21,17 @@
         public string Status { get; set; } = "Confirmed";
 
         public DateTime? CancelledAt { get; set; }
+
+        public string PickupPoint { get; set; }
+
+        public string DropPoint { get; set; }
+
+        public double PickupLatitude { get; set; }
+
+        public double PickupLongitude { get; set; }
+
+        public bool DriverArrived { get; set; }
+
+        public bool PassengerPicked { get; set; }
     }
 }

@@ -81,7 +81,7 @@ namespace routesharebackend.Controllers
             }
         }
 
-        // PUT : api/OfferPool/5
+        // PUT : api/OfferPool/
         [HttpPut("{id}")]
         public IActionResult UpdateOffer(int id, OfferPool updatedOffer)
         {
@@ -128,6 +128,43 @@ namespace routesharebackend.Controllers
             _context.SaveChanges();
 
             return Ok("Offer Deleted Successfully");
+        }
+
+        [HttpPost("{id}/startRide")]
+        public IActionResult StartRide(int id)
+        {
+            var offer = _context.OfferPool.FirstOrDefault(o => o.Id == id);
+
+            if (offer == null)
+                return NotFound("Ride not found.");
+
+            offer.RideStatus = RideStatus.Started;
+
+            _context.SaveChanges();
+
+            return Ok(new
+            {
+                message = "Ride started successfully.",
+                rideStatus = offer.RideStatus
+            });
+        }
+        [HttpPost("{id}/completeRide")]
+        public IActionResult CompleteRide(int id)
+        {
+            var offer = _context.OfferPool.FirstOrDefault(o => o.Id == id);
+
+            if (offer == null)
+                return NotFound("Ride not found.");
+
+            offer.RideStatus = RideStatus.Completed;
+
+            _context.SaveChanges();
+
+            return Ok(new
+            {
+                message = "Ride completed successfully.",
+                rideStatus = offer.RideStatus
+            });
         }
     }
 }

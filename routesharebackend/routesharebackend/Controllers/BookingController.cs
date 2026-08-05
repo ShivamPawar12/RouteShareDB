@@ -16,6 +16,13 @@ namespace routesharebackend.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public IActionResult GetAllBookings()
+        {
+            var bookings = _context.Bookings.ToList();
+            return Ok(bookings);
+        }
+
         [HttpPost]
         public IActionResult BookRide([FromBody] Booking booking)
         {
@@ -35,7 +42,7 @@ namespace routesharebackend.Controllers
                 offer.AvailableSeats--;
 
                 booking.BookedAt = DateTime.UtcNow;
-                booking.CancelledAt = DateTime.UtcNow;
+                booking.Status = "Confirmed";
 
                 _context.Bookings.Add(booking);
 
@@ -48,30 +55,20 @@ namespace routesharebackend.Controllers
                 return BadRequest(ex.InnerException?.Message ?? ex.Message);
             }
         }
-        [HttpGet("user/{userId}")]
-        public IActionResult GetMyBookings(int userId)
+        [HttpGet("owner/{ownerEmail}")]
+        public IActionResult GetBookingsByOwner(string ownerEmail)
         {
-            var now = DateTime.UtcNow;
-
             var bookings = (from b in _context.Bookings
                             join o in _context.OfferPool
-                            on b.OfferId equals o.Id
-                            where b.PassengerUserId == userId
+                                on b.OfferId equals o.Id
+                            where o.OwnerId == ownerEmail
                             select new
                             {
-                                Id = b.Id,
-                                DriverName = o.Name,
-                                Route = o.Route,
-                                StartPoint = o.StartPoint,
-                                Destination = b.Destination,
-                                DepartureTime = o.DepartureTime,
-                                RideDate = o.FromDate,
-                                Status = b.Status,
-                                BookedAt = b.BookedAt,
-
-                                CanCancel =
-                                    b.Status == "Confirmed" &&
-                                    now <= b.BookedAt.AddMinutes(10)
+                                b.OfferId,
+                                b.PassengerName,
+                                b.PickupPoint,
+                                b.DropPoint,
+                                b.Status
                             }).ToList();
 
             return Ok(bookings);
@@ -121,5 +118,43 @@ namespace routesharebackend.Controllers
                 message = "Booking cancelled successfully."
             });
         }
-    } 
+
+        [HttpGet("passenger/{id}")]
+        public IActionResult GetPassengerBooking(int id)
+        {
+            var booking = _context.Bookings
+                .FirstOrDefault(b => b.PassengerUserId == id && b.Status == "Confirmed");
+
+            if (booking == null)
+            {
+                return NotFound("No active booking found.");
+            }
+
+            var offer = _context.OfferPool
+    .FirstOrDefault(o => o.Id == booking.OfferId);
+
+            if (offer == null)
+            {
+                return NotFound("Offer not found.");
+            }
+
+            var driverLocation = _context.DriverLocations
+                .FirstOrDefault(d => d.DriverId == offer.OwnerId);
+
+            return Ok(new
+            {
+                Pickup = booking.PickupPoint,
+                Drop = booking.DropPoint,
+                DriverStatus = offer?.RideStatus.ToString(),
+                ETA = "Calculating...",
+                DriverLocation = driverLocation == null ? null : new
+                {
+                    driverLocation.Latitude,
+                    driverLocation.Longitude,
+                    driverLocation.UpdatedAt
+                }
+            });
+        }
+    }
+    
 }

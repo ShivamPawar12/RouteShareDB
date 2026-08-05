@@ -40,6 +40,13 @@ namespace routesharebackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<bool>("DriverArrived")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("DropPoint")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<int>("OfferId")
                         .HasColumnType("integer");
 
@@ -55,8 +62,21 @@ namespace routesharebackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<bool>("PassengerPicked")
+                        .HasColumnType("boolean");
+
                     b.Property<int>("PassengerUserId")
                         .HasColumnType("integer");
+
+                    b.Property<double>("PickupLatitude")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("PickupLongitude")
+                        .HasColumnType("double precision");
+
+                    b.Property<string>("PickupPoint")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -65,6 +85,31 @@ namespace routesharebackend.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Bookings");
+                });
+
+            modelBuilder.Entity("routesharebackend.Models.DriverLocation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DriverId")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("Latitude")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("Longitude")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DriverLocations");
                 });
 
             modelBuilder.Entity("routesharebackend.Models.OfferPool", b =>
@@ -105,6 +150,9 @@ namespace routesharebackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("RideStatus")
+                        .HasColumnType("integer");
+
                     b.Property<string>("RideType")
                         .HasColumnType("text");
 
@@ -139,7 +187,6 @@ namespace routesharebackend.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("DefaultStartPoint")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Email")

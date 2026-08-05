@@ -26,8 +26,9 @@
 
         public string OwnerId { get; set; } = "";
 
-
         public string? RideType { get; set; }
+
+        public RideStatus RideStatus { get; set; } = RideStatus.Pending;
 
     }
 }
