@@ -28,7 +28,6 @@
 
         public string? RideType { get; set; }
 
-        public RideStatus RideStatus { get; set; } = RideStatus.Pending;
-
+        public string RideStatus { get; set; } = "Pending";
     }
 }

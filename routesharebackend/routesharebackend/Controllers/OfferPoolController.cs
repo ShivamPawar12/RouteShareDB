@@ -138,7 +138,7 @@ namespace routesharebackend.Controllers
             if (offer == null)
                 return NotFound("Ride not found.");
 
-            offer.RideStatus = RideStatus.Started;
+            offer.RideStatus = "Started";
 
             _context.SaveChanges();
 
@@ -156,7 +156,7 @@ namespace routesharebackend.Controllers
             if (offer == null)
                 return NotFound("Ride not found.");
 
-            offer.RideStatus = RideStatus.Completed;
+            offer.RideStatus = "Completed";
 
             _context.SaveChanges();
 
