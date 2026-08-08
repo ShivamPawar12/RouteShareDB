@@ -1,4 +1,14 @@
 .vs/
+**/.vs/
+
+bin/
 **/bin/
+
+obj/
 **/obj/
+
+*.user
+*.suo
+
 node_modules/
+**/node_modules/
