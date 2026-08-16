@@ -52,23 +52,46 @@ namespace routesharebackend.Controllers
         // Login
 
         [HttpPost("login")]
-        public IActionResult Login(LoginRequest request)
+        public IActionResult Login([FromBody] LoginRequest request)
         {
-            var user = _context.Users.FirstOrDefault(x =>
-                x.Email == request.Email &&
-                x.Password == request.Password);
+            try
+            {
+                Console.WriteLine("========== LOGIN START ==========");
+                Console.WriteLine("Email: " + request.Email);
 
-            if (user == null)
-                return Unauthorized("Invalid Email or Password");
+                var user = _context.Users.FirstOrDefault(x =>
+                    x.Email == request.Email &&
+                    x.Password == request.Password);
 
-            return Ok(user);
+                if (user == null)
+                {
+                    Console.WriteLine("Invalid email or password");
+                    return Unauthorized("Invalid Email or Password");
+                }
+
+                Console.WriteLine("LOGIN SUCCESS: " + user.Email);
+
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("========== LOGIN ERROR ==========");
+                Console.WriteLine(ex.ToString());
+
+                return StatusCode(500, new
+                {
+                    message = "Login failed",
+                    error = ex.Message,
+                    innerError = ex.InnerException?.Message
+                });
+            }
         }
-    }
 
-    public class LoginRequest
-    {
-        public string Email { get; set; }
+        public class LoginRequest
+        {
+            public string Email { get; set; }
 
-        public string Password { get; set; }
+            public string Password { get; set; }
+        }
     }
 }
