@@ -65,7 +65,7 @@ namespace routesharebackend.Controllers
 
                 if (user == null)
                 {
-                    Console.WriteLine("Invalid email or password");
+                    Console.WriteLine("USER NOT FOUND");
                     return Unauthorized("Invalid Email or Password");
                 }
 
@@ -86,7 +86,6 @@ namespace routesharebackend.Controllers
                 });
             }
         }
-
         public class LoginRequest
         {
             public string Email { get; set; }
