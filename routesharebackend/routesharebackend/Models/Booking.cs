@@ -14,6 +14,10 @@
 
         public string PassengerExtension { get; set; } = "";
 
+        public string PickupPoint { get; set; } = "";
+
+        public string DropPoint { get; set; } = "";
+
         public string Destination { get; set; } = "";
 
         public DateTime BookedAt { get; set; } = DateTime.UtcNow;

@@ -61,17 +61,23 @@ public class BookingsController : ControllerBase
              {
                  Id = b.Id,
                  DriverName = o.Name,
+
+                 PickupPoint = b.PickupPoint,
+                 DropPoint = b.DropPoint,
+
                  Route = o.Route,
                  StartPoint = o.StartPoint,
                  Destination = b.Destination,
+
                  DepartureTime = o.DepartureTime,
                  RideDate = o.FromDate,
+
                  Status = b.Status,
                  BookedAt = b.BookedAt,
 
                  CanCancel =
-                     b.Status == "Confirmed" &&
-                     now <= b.BookedAt.AddMinutes(10)
+        b.Status == "Confirmed" &&
+        now <= b.BookedAt.AddMinutes(10)
              }).ToList();
 
         return Ok(bookings);
@@ -85,6 +91,53 @@ public class BookingsController : ControllerBase
             .ToList();
 
         return Ok(bookings);
+    }
+
+    [HttpGet("tracking/{bookingId}")]
+    public IActionResult GetBookingForTracking(int bookingId)
+    {
+        var booking =
+            (from b in _context.Bookings
+             join o in _context.OfferPool
+                 on b.OfferId equals o.Id
+             where b.Id == bookingId
+             select new
+             {
+                 Id = b.Id,
+                 OfferId = b.OfferId,
+
+                 PassengerUserId = b.PassengerUserId,
+                 PassengerName = b.PassengerName,
+
+                 PickupPoint = b.PickupPoint,
+                 DropPoint = b.DropPoint,
+                 Destination = b.Destination,
+
+                 DriverName = o.Name,
+                 DriverEmail = o.OwnerId,
+
+                 DepartureTime = o.DepartureTime,
+                 RideDate = o.FromDate,
+
+                 Status = b.Status,
+
+                 DriverStatus = "Pending",
+
+                 DriverLocation = (object)null,
+
+                 PickupLatitude = (double?)null,
+                 PickupLongitude = (double?)null,
+
+                 ETA = (string)null,
+
+                 BookedAt = b.BookedAt
+             })
+            .FirstOrDefault();
+
+        if (booking == null)
+            return NotFound("Booking not found.");
+
+        return Ok(booking);
     }
 
     // ⭐ NEW ENDPOINT
