@@ -86,6 +86,29 @@ namespace routesharebackend.Controllers
                 });
             }
         }
+        [HttpGet("test")]
+        public IActionResult TestDatabase()
+        {
+            try
+            {
+                var count = _context.Users.Count();
+
+                return Ok(new
+                {
+                    message = "Database connection successful",
+                    userCount = count
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    message = "Database connection failed",
+                    error = ex.Message,
+                    innerError = ex.InnerException?.Message
+                });
+            }
+        }
         public class LoginRequest
         {
             public string Email { get; set; }
