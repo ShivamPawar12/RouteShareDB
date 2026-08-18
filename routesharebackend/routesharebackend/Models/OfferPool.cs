@@ -26,8 +26,9 @@
 
         public string OwnerId { get; set; } = "";
 
-
         public string? RideType { get; set; }
 
+        // NEW
+        public string RideStatus { get; set; } = "NotStarted";
     }
 }

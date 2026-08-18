@@ -114,6 +114,49 @@ namespace routesharebackend.Controllers
             return Ok(offer);
         }
 
+        // POST : api/OfferPool/{id}/startRide
+        [HttpPost("{id}/startRide")]
+        public async Task<IActionResult> StartRide(int id)
+        {
+            var offer = await _context.OfferPool.FindAsync(id);
+
+            if (offer == null)
+                return NotFound("Offer not found");
+
+            offer.RideStatus = "Started";
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Ride Started Successfully",
+                offerId = offer.Id,
+                rideStatus = offer.RideStatus
+            });
+        }
+
+
+        // POST : api/OfferPool/{id}/completeRide
+        [HttpPost("{id}/completeRide")]
+        public async Task<IActionResult> CompleteRide(int id)
+        {
+            var offer = await _context.OfferPool.FindAsync(id);
+
+            if (offer == null)
+                return NotFound("Offer not found");
+
+            offer.RideStatus = "Completed";
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Ride Completed Successfully",
+                offerId = offer.Id,
+                rideStatus = offer.RideStatus
+            });
+        }
+
         // DELETE : api/OfferPool/
         [HttpDelete("{id}")]
         public IActionResult DeleteOffer(int id)
