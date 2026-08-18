@@ -16,6 +16,8 @@ public DbSet<OfferPool> OfferPool { get; set; }
 
         public DbSet<Booking> Bookings { get; set; }
 
+        public DbSet<DriverLocation> DriverLocations { get; set; }
+
         //public DbSet<AuthSession> AuthSessions { get; set; }
 
         //public DbSet<TodayRideOffer> TodayRideOffers { get; set; }
